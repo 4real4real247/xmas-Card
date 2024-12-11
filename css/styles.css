@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
+body {
+  padding: 2rem;
+  font-size: 2rem;
+  max-width: 800px;
+  font-family: "mountains of christmas";
+  background: url(https://img.freepik.com/premium-vector/realistic-snowflake-border_23-2149242357.jpg?semt=ais_hybrid);
+}
+
+#card {
+  padding: 2rem;
+  border-radius: 20%;
+  border-right: 10px groove #e81919;
+  border-bottom: 5px groove #e81919;
+  border-top: 5px groove #107220;
+  border-left: 10px groove #107220;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e81919;
+}
+p {
+  color: #107220;
+}
+button {
+  padding: 1 rem;
+  font-family: "mountains of christmas";
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border: 3px groove red;
+  background-color: green;
+  border-radius: 30px 20px;
+  color: red;
+}
+button:hover {
+  background-color: red;
+  border: 3px groove green;
+  cursor: alias;
+  border-radius: 30px 20px;
+  color: green;
+  svg {
+    fill: green;
+  }
+}
+.hidden {
+  display: none;
+}
+svg {
+  fill: red;
+}
